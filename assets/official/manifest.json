@@ -1,0 +1,41 @@
+{
+  "source_base": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/",
+  "root_url": "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Props/Blocks/DexCube/dex_cube_instanceable.usd",
+  "files": {
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Props/Blocks/DexCube/dex_cube_instanceable.usd": {
+      "local": "Isaac/Props/Blocks/DexCube/dex_cube_instanceable.usd",
+      "sha256": "7a5c015690652f4ca1d62ed757d494c51f052067bd037372c8fd581bc92d437b",
+      "bytes": 4107
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Props/Blocks/DexCube/Props/instanceable_meshes.usd": {
+      "local": "Isaac/Props/Blocks/DexCube/Props/instanceable_meshes.usd",
+      "sha256": "9c35330619c5b911c222b15f5eb22fc04046504262c96c9488c86d1af951db60",
+      "bytes": 6524
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Props/Blocks/DexCube/Materials/dex_cube_mod.png": {
+      "local": "Isaac/Props/Blocks/DexCube/Materials/dex_cube_mod.png",
+      "sha256": "369aed3259b4b8fae55f84afdb575dd660b176b7f4bcdce8d9fe3672872aa29a",
+      "bytes": 34189
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Environments/Grid/default_environment.usd": {
+      "local": "Isaac/Environments/Grid/default_environment.usd",
+      "sha256": "8a21c317d638d33a4e6c20c958a7ed8f4d8c5195efd7e20f1b85178b4a15638a",
+      "bytes": 13622
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Environments/Grid/Materials/Textures/Wireframe_blue.png": {
+      "local": "Isaac/Environments/Grid/Materials/Textures/Wireframe_blue.png",
+      "sha256": "940b96ee8c8e53bd1acbc770d4ca0ac98bed9c96439ab386d1b27dbc9790cc4e",
+      "bytes": 111895
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Environments/Grid/Materials/Textures/WireframeBlur_basecolor.png": {
+      "local": "Isaac/Environments/Grid/Materials/Textures/WireframeBlur_basecolor.png",
+      "sha256": "deab39088eaf39ed7be951966c5e6bd5e58b90ab64743b0cdc8e5579fd5a99d9",
+      "bytes": 436257
+    },
+    "https://omniverse-content-production.s3-us-west-2.amazonaws.com/Assets/Isaac/5.1/Isaac/Environments/Grid/Materials/Textures/WireframeBlur_blue.png": {
+      "local": "Isaac/Environments/Grid/Materials/Textures/WireframeBlur_blue.png",
+      "sha256": "44fc0e82007bb0bd94631cd7ec45986a71ed74b9413899fbffac13efe151be4b",
+      "bytes": 1474958
+    }
+  }
+}

@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "history_steps": 30,
+  "frame_width": 26,
+  "observation_size": 781,
+  "input": "oldest-to-newest normalized joint angles + applied joint targets; then speed command",
+  "history_initialization": "repeat first measured/commanded frame",
+  "units": "radians before normalization",
+  "step_dt": 0.05,
+  "action_step_rad": 0.075,
+  "target_speed": 1.0,
+  "joint_contract": [
+    {
+      "name": "LF_MCP",
+      "sdk_id": 17,
+      "lower": 0.0,
+      "upper": 1.5707963267948966
+    },
+    {
+      "name": "LF_PIP",
+      "sdk_id": 16,
+      "lower": 0.045920438500737626,
+      "upper": 1.2915436464758
+    },
+    {
+      "name": "RF_MCP",
+      "sdk_id": 14,
+      "lower": 0.0,
+      "upper": 1.5707963267948966
+    },
+    {
+      "name": "RF_PIP",
+      "sdk_id": 13,
+      "lower": 0.04050166223993259,
+      "upper": 1.5707963267948966
+    },
+    {
+      "name": "MF_MCP",
+      "sdk_id": 11,
+      "lower": 0.0,
+      "upper": 1.5707963267948966
+    },
+    {
+      "name": "MF_PIP",
+      "sdk_id": 10,
+      "lower": 0.04050166223993259,
+      "upper": 1.5707963267948966
+    },
+    {
+      "name": "FF_MCP_AA",
+      "sdk_id": 8,
+      "lower": -0.13962634015954636,
+      "upper": 0.13962634015954636
+    },
+    {
+      "name": "FF_MCP",
+      "sdk_id": 7,
+      "lower": 0.0,
+      "upper": 1.5707963267948966
+    },
+    {
+      "name": "FF_PIP",
+      "sdk_id": 6,
+      "lower": 0.03988710547564719,
+      "upper": 1.39626340159546
+    },
+    {
+      "name": "Thumb_TMC_PS",
+      "sdk_id": 4,
+      "lower": -0.17453292519943295,
+      "upper": 1.0471975511965976
+    },
+    {
+      "name": "Thumb_TMC_AA",
+      "sdk_id": 3,
+      "lower": 0.349065850398866,
+      "upper": 1.5707963267948966
+    },
+    {
+      "name": "Thumb_TMC_FE",
+      "sdk_id": 2,
+      "lower": 0.0,
+      "upper": 0.8726646259971648
+    },
+    {
+      "name": "Thumb_MCP",
+      "sdk_id": 1,
+      "lower": 0.0,
+      "upper": 1.1519173063162575
+    }
+  ],
+  "command_upper_deg": {},
+  "command_margin_fraction": 0.0,
+  "teacher": "/home/jdzhang/ghand_projects/ghand_cube/models/spin_randomized/teacher/nn/ghand_spin_teacher.pth",
+  "teacher_sha256": "fe73d3560de61f33b1e1a65244da139eacb78beb7322b4d1a377dbdf6d33290e",
+  "hardware_ready": false,
+  "domain_randomization": {
+    "cube_size_range_m": [
+      0.035,
+      0.04
+    ],
+    "cube_mass_range_kg": [
+      0.03,
+      0.05
+    ],
+    "size_sampling": "independent uniform per environment at startup",
+    "mass_sampling": "independent uniform per episode reset",
+    "inertia": "uniform cube: mass * edge_squared / 6",
+    "motor_dynamics_randomized": false
+  },
+  "training": {
+    "teacher": "/home/jdzhang/ghand_projects/ghand_cube/runs/spin_randomized_20261016/teacher/nn/ghand_spin_teacher.pth",
+    "init_student": "/home/jdzhang/ghand_projects/ghand_cube/runs/spin_randomized_20261016/student/student.pt",
+    "student": null,
+    "run_dir": "/home/jdzhang/ghand_projects/ghand_cube/runs/spin_randomized_20261016/student_independent",
+    "eval_output": null,
+    "num_envs": 256,
+    "iterations": 300,
+    "history_steps": 30,
+    "rollout_steps": 32,
+    "updates": 16,
+    "batch_size": 1024,
+    "replay_capacity": 1048576,
+    "eval_every": 60,
+    "episodes_per_env": 1,
+    "seed": 42,
+    "randomize_cube": false,
+    "cube_size_mm": null,
+    "cube_mass_g": null,
+    "enable_cameras": false,
+    "xr": false,
+    "device": "cuda:0",
+    "cpu": false,
+    "verbose": false,
+    "info": false,
+    "rendering_mode": null,
+    "kit_args": "",
+    "anim_recording_enabled": false,
+    "anim_recording_start_time": 0,
+    "anim_recording_stop_time": 10,
+    "headless": true,
+    "hide_ui": true,
+    "create_new_stage": false,
+    "physics_gpu": 0,
+    "active_gpu": 0
+  }
+}

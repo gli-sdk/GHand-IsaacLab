@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ghand-isaaclab"
+version = "0.1.0"
+description = "GHand cube and dual-ball manipulation tasks for Isaac Lab"
+requires-python = ">=3.10"
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["source"]
+include = ["ghand*"]

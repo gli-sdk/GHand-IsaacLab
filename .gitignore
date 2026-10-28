@@ -1,0 +1,16 @@
+# Local tooling and generated outputs; model bundles and demos are versioned.
+**/__pycache__/
+*.py[cod]
+.ruff_cache/
+.pytest_cache/
+.venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+**/runs/
+**/results/
+**/logs/
+**/build/
+**/dist/
+**/*.egg-info/

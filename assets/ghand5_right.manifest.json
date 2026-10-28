@@ -1,0 +1,267 @@
+{
+  "source_repository": "/home/jdzhang/new_workspace/ghand-assets",
+  "source_commit": "da8d0c1dd95fd0719af913e86723d5010bba50f0",
+  "source_urdf": "/home/jdzhang/new_workspace/ghand-assets/ghand5_system/urdf/ghand5_right.urdf",
+  "source_urdf_sha256": "bfe6481cd6d8b96bc96274f488763a844aadbb3a4d72f2fe005eab19600756a8",
+  "source_mesh_sha256": {
+    "/home/jdzhang/new_workspace/ghand-assets/ghand5_system/meshes/hands/visual/right/FF_DIP_link.STL": "a116bf65443a785f10273c80609ab29045c9ef07f229405b6a596aa03ff1b832",
+    "/home/jdzhang/new_workspace/ghand-assets/ghand5_system/meshes/hands/visual/right/FF_MCP_AA_link.STL": "eab80f8d31a34599f858911ee122d604bfbba8bf7b9fcd9f0a3accc058ebc390",
+    "/home/jdzhang/new_workspace/ghand-assets/ghand5_system/meshes/hands/visual/right/FF_MCP_link.STL": "f1b08c1ee035aba5b2a64646f1814f4d1a3b3da085152055291550d53995727f",
+    "/home/jdzhang/new_workspace/ghand-assets/ghand5_system/meshes/hands/visual/right/FF_PIP_link.STL": "d1d1bc8647fb4191989bd4639798596e2c6d8cf59937061bb4a25eaf53ae3dbe",
+    "/home/jdzhang/new_workspace/ghand-assets/ghand5_system/meshes/hands/visual/right/LF_DIP_link.STL": "1d03d9b89f7eb354e0e584d67ebcd6fb1f46b479d8ec1c43e158019adaf410c0",
+    "/home/jdzhang/new_workspace/ghand-assets/ghand5_system/meshes/hands/visual/right/LF_MCP_link.STL": "f295a720cde02e069c52f7ee7579982c89077ad47855d2d140174bbd0ba1f3e2",
+    "/home/jdzhang/new_workspace/ghand-assets/ghand5_system/meshes/hands/visual/right/LF_PIP_link.STL": "cd5c12873e512df21a4e1ecdc0269ca5747ef7f1192d8f38e4aba5272f27800d",
+    "/home/jdzhang/new_workspace/ghand-assets/ghand5_system/meshes/hands/visual/right/MF_DIP_link.STL": "72a299066012da2b5a8c24e85284ad11dceb54564c80a6b6d5815398c622657c",
+    "/home/jdzhang/new_workspace/ghand-assets/ghand5_system/meshes/hands/visual/right/MF_MCP_link.STL": "b8804e7029e8b98571dfca195726fcf73a9fdbfbb93dea333a1cdc182481b046",
+    "/home/jdzhang/new_workspace/ghand-assets/ghand5_system/meshes/hands/visual/right/MF_PIP_link.STL": "cae135dee2707b000d700c79121d00028723109ab9897a75fb3382201e186dde",
+    "/home/jdzhang/new_workspace/ghand-assets/ghand5_system/meshes/hands/visual/right/RF_DIP_link.STL": "a90e4d947ddecc099042520c0b42e32a3f18670b5b3354a19ad16bd4795462ed",
+    "/home/jdzhang/new_workspace/ghand-assets/ghand5_system/meshes/hands/visual/right/RF_MCP_link.STL": "22483c52056b2c65fe3c3a6f61186b93250430b195217c661caff0dde8b91ee0",
+    "/home/jdzhang/new_workspace/ghand-assets/ghand5_system/meshes/hands/visual/right/RF_PIP_link.STL": "be37c3b647bab58129484f287ff5dce41ab9d89e4a7059c9b63e0bdbff526253",
+    "/home/jdzhang/new_workspace/ghand-assets/ghand5_system/meshes/hands/visual/right/Thumb_IP_link.STL": "40e93e499c31be088b2bee4af79b6782ee5437e9b41a1fea6fbbe35b9ca3853e",
+    "/home/jdzhang/new_workspace/ghand-assets/ghand5_system/meshes/hands/visual/right/Thumb_MCP_link.STL": "ad467c41197b4da4426a4c600226f8d8294a2d34a0fb30f7032556870ded1c00",
+    "/home/jdzhang/new_workspace/ghand-assets/ghand5_system/meshes/hands/visual/right/Thumb_TMC_AA_link.STL": "eb77aa6db55507244bcae11494cebbca5e8e2dd8ea1f4185b2bf83bb1ff75673",
+    "/home/jdzhang/new_workspace/ghand-assets/ghand5_system/meshes/hands/visual/right/Thumb_TMC_FE_link.STL": "9ee245811815ee65c60394a17d67c824f7c82038d5b939a2ac88fd97952fb6e5",
+    "/home/jdzhang/new_workspace/ghand-assets/ghand5_system/meshes/hands/visual/right/Thumb_TMC_PS_link.STL": "d3118a8db92a00ecfe53189d0ad01503b4a7021b50f05a3defb8f637e3aaf24b",
+    "/home/jdzhang/new_workspace/ghand-assets/ghand5_system/meshes/hands/visual/right/base_link.STL": "a81bf08f905e45052621a4e7156e62c269b13b9ec4f2f4b808d76e800a64efc5"
+  },
+  "active_joints": [
+    "LF_MCP",
+    "LF_PIP",
+    "RF_MCP",
+    "RF_PIP",
+    "MF_MCP",
+    "MF_PIP",
+    "FF_MCP_AA",
+    "FF_MCP",
+    "FF_PIP",
+    "Thumb_TMC_PS",
+    "Thumb_TMC_AA",
+    "Thumb_TMC_FE",
+    "Thumb_MCP"
+  ],
+  "passive_joints": [
+    "LF_DIP",
+    "RF_DIP",
+    "MF_DIP",
+    "FF_DIP",
+    "Thumb_IP"
+  ],
+  "joints": {
+    "LF_MCP": {
+      "lower": 0.0,
+      "upper": 1.5707963267949,
+      "effort": 0.42,
+      "velocity": 2.268928,
+      "mimic": null,
+      "usd_joint_path": "/tn__ghand5right_oG/Physics/LF_MCP"
+    },
+    "LF_PIP": {
+      "lower": 0.0,
+      "upper": 1.2915436464758,
+      "effort": 0.11,
+      "velocity": 2.513274,
+      "mimic": null,
+      "usd_joint_path": "/tn__ghand5right_oG/Physics/LF_PIP"
+    },
+    "LF_DIP": {
+      "lower": 0.0,
+      "upper": 1.5707963267949,
+      "effort": 0.02,
+      "velocity": 2.059489,
+      "mimic": {
+        "joint": "LF_PIP",
+        "multiplier": 0.841152165,
+        "offset": -0.03862607626264481
+      },
+      "physx_mimic": {
+        "axis": "rotZ",
+        "gearing": -0.841152165,
+        "offset_degrees": 2.213111149
+      },
+      "usd_joint_path": "/tn__ghand5right_oG/Physics/LF_DIP"
+    },
+    "RF_MCP": {
+      "lower": 0.0,
+      "upper": 1.5707963267949,
+      "effort": 0.69,
+      "velocity": 2.234021,
+      "mimic": null,
+      "usd_joint_path": "/tn__ghand5right_oG/Physics/RF_MCP"
+    },
+    "RF_PIP": {
+      "lower": 0.0,
+      "upper": 1.5707963267949,
+      "effort": 0.18,
+      "velocity": 2.565634,
+      "mimic": null,
+      "usd_joint_path": "/tn__ghand5right_oG/Physics/RF_PIP"
+    },
+    "RF_DIP": {
+      "lower": 0.0,
+      "upper": 1.5707963267949,
+      "effort": 0.03,
+      "velocity": 2.181662,
+      "mimic": {
+        "joint": "RF_PIP",
+        "multiplier": 0.821680553,
+        "offset": -0.033279428226727026
+      },
+      "physx_mimic": {
+        "axis": "rotZ",
+        "gearing": -0.821680553,
+        "offset_degrees": 1.906770782
+      },
+      "usd_joint_path": "/tn__ghand5right_oG/Physics/RF_DIP"
+    },
+    "MF_MCP": {
+      "lower": 0.0,
+      "upper": 1.5707963267949,
+      "effort": 0.69,
+      "velocity": 2.234021,
+      "mimic": null,
+      "usd_joint_path": "/tn__ghand5right_oG/Physics/MF_MCP"
+    },
+    "MF_PIP": {
+      "lower": 0.0,
+      "upper": 1.5707963267949,
+      "effort": 0.18,
+      "velocity": 2.565634,
+      "mimic": null,
+      "usd_joint_path": "/tn__ghand5right_oG/Physics/MF_PIP"
+    },
+    "MF_DIP": {
+      "lower": 0.0,
+      "upper": 1.5707963267949,
+      "effort": 0.03,
+      "velocity": 2.181662,
+      "mimic": {
+        "joint": "MF_PIP",
+        "multiplier": 0.821680553,
+        "offset": -0.033279428226727026
+      },
+      "physx_mimic": {
+        "axis": "rotZ",
+        "gearing": -0.821680553,
+        "offset_degrees": 1.906770782
+      },
+      "usd_joint_path": "/tn__ghand5right_oG/Physics/MF_DIP"
+    },
+    "FF_MCP_AA": {
+      "lower": -0.174532925199433,
+      "upper": 0.174532925199433,
+      "effort": 0.6,
+      "velocity": 1.151917,
+      "mimic": null,
+      "usd_joint_path": "/tn__ghand5right_oG/Physics/FF_MCP_AA"
+    },
+    "FF_MCP": {
+      "lower": 0.0,
+      "upper": 1.5707963267949,
+      "effort": 0.69,
+      "velocity": 2.234021,
+      "mimic": null,
+      "usd_joint_path": "/tn__ghand5right_oG/Physics/FF_MCP"
+    },
+    "FF_PIP": {
+      "lower": 0.0,
+      "upper": 1.39626340159546,
+      "effort": 0.18,
+      "velocity": 2.565634,
+      "mimic": null,
+      "usd_joint_path": "/tn__ghand5right_oG/Physics/FF_PIP"
+    },
+    "FF_DIP": {
+      "lower": 0.0,
+      "upper": 1.5707963267949,
+      "effort": 0.03,
+      "velocity": 2.181662,
+      "mimic": {
+        "joint": "FF_PIP",
+        "multiplier": 0.820453298,
+        "offset": -0.032725507235168594
+      },
+      "physx_mimic": {
+        "axis": "rotZ",
+        "gearing": -0.820453298,
+        "offset_degrees": 1.875033447
+      },
+      "usd_joint_path": "/tn__ghand5right_oG/Physics/FF_DIP"
+    },
+    "Thumb_TMC_PS": {
+      "lower": -0.174532925199433,
+      "upper": 1.0471975511966,
+      "effort": 0.15,
+      "velocity": 4.18879,
+      "mimic": null,
+      "usd_joint_path": "/tn__ghand5right_oG/Physics/Thumb_TMC_PS"
+    },
+    "Thumb_TMC_AA": {
+      "lower": 0.349065850398866,
+      "upper": 1.5707963267949,
+      "effort": 0.12,
+      "velocity": 4.18879,
+      "mimic": null,
+      "usd_joint_path": "/tn__ghand5right_oG/Physics/Thumb_TMC_AA"
+    },
+    "Thumb_TMC_FE": {
+      "lower": 0.0,
+      "upper": 0.872664625997165,
+      "effort": 0.09,
+      "velocity": 3.141593,
+      "mimic": null,
+      "usd_joint_path": "/tn__ghand5right_oG/Physics/Thumb_TMC_FE"
+    },
+    "Thumb_MCP": {
+      "lower": 0.0,
+      "upper": 1.15191730631626,
+      "effort": 0.13,
+      "velocity": 3.525565,
+      "mimic": null,
+      "usd_joint_path": "/tn__ghand5right_oG/Physics/Thumb_MCP"
+    },
+    "Thumb_IP": {
+      "lower": 0.0,
+      "upper": 1.5707963267949,
+      "effort": 0.03,
+      "velocity": 4.24115,
+      "mimic": {
+        "joint": "Thumb_MCP",
+        "multiplier": 1.107174665,
+        "offset": 0.019096537114922627
+      },
+      "physx_mimic": {
+        "axis": "rotZ",
+        "gearing": -1.107174665,
+        "offset_degrees": -1.09415098
+      },
+      "usd_joint_path": "/tn__ghand5right_oG/Physics/Thumb_IP"
+    }
+  },
+  "generated_at": "2026-09-24T09:18:33.282857+00:00",
+  "usd_path": "/home/jdzhang/workspace/IsaacLab/outputs/ghand_training_workspace/outputs/ghand_training/assets/ghand5_right.usd",
+  "usd_sha256": "68cc9845c69ac8d5e45149c444b975f00f98560868b74ebab213710bdf85156a",
+  "fixed_base": true,
+  "physx_mimic_count": 5,
+  "motor_stiffness_nm_per_rad": 1.0,
+  "motor_damping_nm_s_per_rad": 0.1,
+  "assembly_collision_filters": [
+    {
+      "links": [
+        "base_link",
+        "FF_MCP_link"
+      ],
+      "reason": "Nonadjacent assembly overlap from whole-link convex-hull collision geometry",
+      "default_pose_intersection_inscribed_radius_mm": 5.565,
+      "verification": "Source URDF forward kinematics and convex-hull half-space intersection; see scripts/tests/check_ghand_collision_geometry.py"
+    },
+    {
+      "links": [
+        "base_link",
+        "Thumb_TMC_AA_link"
+      ],
+      "reason": "Nonadjacent assembly overlap from whole-link convex-hull collision geometry",
+      "default_pose_intersection_inscribed_radius_mm": 0.917,
+      "verification": "Source URDF forward kinematics and convex-hull half-space intersection; see scripts/tests/check_ghand_collision_geometry.py"
+    }
+  ]
+}

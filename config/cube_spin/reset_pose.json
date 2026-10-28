@@ -1,0 +1,23 @@
+{
+  "initial_deg": {
+    "THUMB_IP": -4.0981135020076506e-05,
+    "THUMB_MCP": 4.268868231257969e-06,
+    "THUMB_TMC_FE": 1.2963867664979336,
+    "THUMB_TMC_AA": 19.99999941818584,
+    "THUMB_TMC_PS": 0.28869630140398334,
+    "FF_DIP": 3.756604043507013e-05,
+    "FF_PIP": 6.830189170012751e-05,
+    "FF_MCP": -6.830189170012751e-06,
+    "FF_MCP_AA": 0.14587403097082838,
+    "MF_DIP": 0.030155285185606295,
+    "MF_PIP": 0.04563249384485519,
+    "MF_MCP": -6.830189170012751e-06,
+    "RF_DIP": 3.756604043507013e-05,
+    "RF_PIP": 6.830189170012751e-05,
+    "RF_MCP": -6.830189170012751e-06,
+    "LF_DIP": 0.0,
+    "LF_PIP": 0.0,
+    "LF_MCP": -6.830189170012751e-06
+  },
+  "description": "Original measured right-hand open pose, retained independently of experimental logs."
+}

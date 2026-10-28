@@ -1,0 +1,28 @@
+{
+  "complete": true,
+  "episodes": 64,
+  "seed": 123,
+  "policy": "teacher",
+  "checkpoint": "/home/jdzhang/ghand_projects/ghand_baoding/runs/logs/rl_games/ghand_baoding/baseline/nn/last_ghand_baoding_ep_200_rew_718.3151.pth",
+  "checkpoint_sha256": "cdcc64b9e8696ee207e864965c04bd223c91bdeaeb4b379d667148c2385b75cc",
+  "initial_ball_positions": [
+    [
+      0.016000032424926758,
+      -0.07700002193450928,
+      0.5357499718666077
+    ],
+    [
+      -0.016000032424926758,
+      -0.07700002193450928,
+      0.5375000238418579
+    ]
+  ],
+  "max_mimic_error_rad": 0.0019842907786369324,
+  "minimum_ball_distance_m": 0.029625950381159782,
+  "minimum_ball_height_m": 0.5142717957496643,
+  "max_ball_speed_m_s": 0.3988454043865204,
+  "mean_net_turns": 12.706101134419441,
+  "drop_rate": 0.0,
+  "one_orbit_success": 0.0,
+  "two_orbit_success": 0.0
+}
